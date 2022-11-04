@@ -1,0 +1,14 @@
+Write a client-server  application which acts as an inventory management program for a grocery shop between the sender and the receiver over UDP network connection.The Shop maintains an inventory for 5 products. It is the programmer decision on the usage of files/ any other data structure to maintain the inventory. Here the sender will be the customer and the receiver will be the shop manager.
+1.	The sender must send a string/ sequence of strings where each string take the the form <itemname>,<unitprice>,<quantity> to the receiver. (Example: apple,30,5) 
+2.	Receiver (Shop Manager) should check if unitprice and quantity are numbers and validate the inventory list. If they are not, it should display ‘error’ and should not store/update this item.
+3.	If unitprice and quantity are numbers, the receiver must compute and display the total price for each record (customer ) received. (Example:apple: 150) 
+4.	At the Receiver side display the inventory details after each purchase is made. 
+5.	If a sender gives the input as ‘Records’, the receiver should display a list of all the distinct items so far, along with their total quantities. For example, if the commands so far have been of the form:
+Apple,20,20
+Apple,10,10
+Orange,5,5
+
+Then the final result should be
+Apple 30
+Orange 5 
+
