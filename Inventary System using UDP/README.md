@@ -11,3 +11,7 @@ Orange,5,5
 Then the final result should be
 Apple 30
 Orange 5 
+
+Contributions welcomed:
+  Add commands
+  Find ways to resolve the hot-coded resolving of message[2:-1] in server file
